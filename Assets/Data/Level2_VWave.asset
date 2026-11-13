@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd6572e37ddb1049b16968e5134e375, type: 3}
+  m_Name: Level2_VWave
+  m_EditorClassIdentifier: Assembly-CSharp::WaveDataSO
+  waveType: 0
+  enemyPrefab: {fileID: 3228711297294454718, guid: 76b937efefe0ba84d8256954cc2e53ec, type: 3}
+  formation: 1
+  entryPath: 1
+  enemyCount: 5
+  moveSpeed: 4
+  columns: 5
+  minEggInterval: 1.5
+  maxEggInterval: 3
+  diveEvery: 4
+  diveDelay: 1.5
+  diveSpeedMultiplier: 2.5
